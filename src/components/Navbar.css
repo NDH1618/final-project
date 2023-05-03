@@ -1,0 +1,113 @@
+.NavbarItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    width: 93%;
+    height: 65px;
+    border-radius: 10px;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: rgb(244, 239, 248);
+    z-index: 999;
+
+    
+}
+
+#hello-user{
+    font-weight: 900;
+    margin-top: 0.9rem;
+    font-size: 17px;
+    color: coral;
+}
+#hello-user svg{
+    padding-left: 0.2rem;
+    font-size: 23px;
+    color: rgb(255, 80, 153);
+}
+.Navbar-logo{
+    color: #180922;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+
+}
+.Navbar-menu{
+    display: grid;
+    grid-template-columns: repeat(8, auto);
+    grid-gap: 10px;
+    list-style: none;
+    align-items: center;
+    margin-top: 1rem;
+}
+.nav-link {
+    text-decoration: none;
+    color: #222;
+    font-size: 0.95rem !important;
+    font-weight: 600 !important;
+    padding: 0.5rem 0.7rem !important;
+    transition: 0.2s ease-in-out !important;
+}
+.nav-link_mobile{
+    display: none;
+    text-decoration: none;
+}
+.nav-link:hover{
+    background-color: rgb(181, 130, 226);
+    border-radius: 5px;
+}
+.icon-icon {
+    padding-right: 10px;
+    font-size: 1.55rem;
+    color: rgb(168, 56, 150);
+}
+.button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-size: 0.95rem;
+    font-weight: 600;
+    border: none;
+    transition: 0.25s ease-in-out;
+}
+.button:hover{
+    background-color: rgb(185, 137, 230);
+    border-radius: 5px;
+}
+
+.menu-icons{
+    display: none;
+    font-size: 1.3rem;
+}
+
+@media screen and (max-width: 768px) {
+    .Navbar-menu{
+        display: flex;
+        flex-direction: column;
+        align-items:stretch;
+        justify-content: flex-start;
+        background-color: rgb(235, 252, 252);
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        opacity: 1;
+        padding: 60px 0 30px 0;
+    }
+    .nav-link{
+        padding: 2rem 0;
+        display: block;
+    }
+    .Navbar-menu.active {
+        left: 0;
+        opacity: 1;
+        z-index: -1;
+    }
+    .menu-icons{
+        display: block;
+    }
+
+}

@@ -1,0 +1,19 @@
+.carousel{
+    
+}
+.carousel-caption{
+    margin-bottom: 7rem;
+}
+.d-block {
+    height: 100vh;
+    object-fit: cover;
+}
+.carousel-caption h1{
+    font-weight: 700;
+}
+.carousel-caption h3{
+    font-weight: 700;
+}
+.carousel-caption p{
+    font-weight: 700;
+}

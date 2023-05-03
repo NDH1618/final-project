@@ -1,0 +1,13 @@
+
+.AdminUp-up{
+    display: flex;
+    align-items: flex-start;
+    margin-left: 165px;
+}
+.AdminUp-up input{
+   padding: 0.3rem;
+   border-radius: 5px;
+   border: 1px solid blueviolet;
+   margin: 1rem;
+   font-weight: 700;
+}

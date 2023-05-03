@@ -1,0 +1,45 @@
+.om-img img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.omicare{
+    padding: 4rem 6rem;
+    display: flex;
+    width: 100%;
+}
+.om-top{
+    display: flex;
+    padding-top: 1rem;
+    
+}
+.om-top div{
+    padding-right: 1rem;
+    
+}
+.omicare-top{
+    padding-top: 1.2rem;
+    padding-right: 1rem;
+}
+.omicare-top h2{
+    text-align: start;
+}
+.om-top a{
+    font-size: 1.5rem;
+    padding: 0 1rem;
+    color: darkcyan;
+}
+
+.om-top p{
+    font-weight: 700;
+}
+
+@media screen and (max-width:1108px) {
+    .omicare-top h2{
+        display: none;
+    }
+    .video{
+        display: none;
+    }
+}

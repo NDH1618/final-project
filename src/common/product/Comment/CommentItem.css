@@ -1,0 +1,29 @@
+
+.comment-comment{
+    text-align: justify;
+    margin-left: 135px;
+
+}
+.comment-name{
+    display: flex;
+    text-align: justify;
+    padding: 1rem;
+}
+.comment-img{
+    width: 100px;
+    height: 100px;
+}
+.comment-img img{
+    width: 80%;
+    height: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgb(204, 100, 204);
+}
+.comment-name h6{
+    font-weight: 700;
+    color: rgb(22, 22, 155);
+}
+.content-content{
+    margin-left: 2rem;
+}

@@ -1,0 +1,50 @@
+.Admin_product input{
+    padding: 10px;
+    margin: 10px;
+    width: 330px;
+    text-align: center;
+    border-radius: 7px;
+    background-color: rgb(212, 231, 233);
+    border: 1px solid rgb(79, 110, 17);
+}
+.Admin_product button{
+    padding: 10px;
+    margin: 10px;
+    width: 80px; 
+    border-radius: 5px;
+    background-color: rgb(163, 199, 199);
+    border: 1px solid rgb(105, 145, 26);
+}
+.Admin_product{
+    background-color: rgb(220, 196, 221);
+    margin: 130px 200px;
+    border-radius: 6px;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
+.Admin_product h3{
+    font-weight: 700;
+    color: rgb(114, 21, 117);
+    padding-bottom: 1rem;
+}
+.admin-reginer{
+    display: flex;
+    justify-content: center;
+}
+.admin-reginer h5{
+    margin-right: 1rem;
+    margin-top: 0.3rem;
+    color: rgb(101, 13, 201);
+}
+.admin-reginer p {
+    font-size: 20px;
+    color: rgb(10, 85, 85);
+}
+.admin-reginer svg{
+    font-size: 30px;
+    color: rgb(45, 129, 197);
+    
+}
+.admin-reginer p:hover{
+    cursor: pointer;
+}

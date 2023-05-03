@@ -1,0 +1,47 @@
+.adminsearch{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 1rem;
+}
+.adminsearch > button{
+    border-radius: 0.5rem;
+    border: 1px solid rgb(236, 193, 127);
+    background-color: rgb(168, 136, 243);
+    color: white;
+    font-weight: 700;
+}
+.adminsearch input{
+    padding: 0.3rem;
+    padding-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 4px;
+    border: 0.12rem solid rgb(76, 16, 133);
+}
+.Adminlist{
+    display: flex;
+    justify-content: center;
+    margin: 2rem 1rem;
+}
+.Adminlist th{
+    padding: 1rem 5rem;
+}
+.Adminlist tr{
+    background-color: rgb(229, 221, 236);
+    padding: 1rem 0;
+}
+thead th{
+    border: 1px solid rgb(63, 19, 19);
+}
+tbody td{
+    border: 1px solid rgb(192, 67, 67);
+}
+tbody button{
+    padding: 0 0.8rem;
+    margin: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(235, 197, 141);
+}
+.pagination_nanana{
+    display: flex;
+    justify-content: center;
+}

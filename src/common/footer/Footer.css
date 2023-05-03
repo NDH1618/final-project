@@ -1,0 +1,42 @@
+.footer{
+    padding: 3.5rem 6rem;
+    background-color: rgb(90, 25, 88);
+    color: aliceblue;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+}
+.top a{
+    color: aliceblue;
+    font-size: 1.8rem;
+    margin-left: 1rem;
+}
+.top a:hover{
+    color: blue;
+}
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.bottom h4{
+    font-size: 1.3rem;
+}
+.bottom a{
+    text-decoration: none;
+    color: aliceblue;
+    padding-bottom: 0.3rem;
+    padding-top: 0.6rem;
+    font-size: 1rem;
+}
+.bottom a:hover{
+    color: rgb(80, 80, 196);
+}

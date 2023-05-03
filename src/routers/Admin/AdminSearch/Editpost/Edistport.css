@@ -1,0 +1,42 @@
+.EditProduct{
+    margin: 100px 300px ;
+    text-align: justify;
+
+}
+.handle-text div{
+    margin: 2rem 0;
+}
+.EditProduct span{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(79, 19, 134);
+    margin-right: 1rem;
+}
+.EditProduct h5{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(79, 19, 134);
+}
+.EditProduct button{
+    margin: 2rem 0;
+    background-color: rgb(168, 148, 224);
+    border-radius: 4px;
+}
+.EditProduct h1{
+    color: rgb(73, 22, 192);
+    font-weight: 500;
+
+}
+.EditProduct input{
+    padding: 0.3rem;
+    border: 1px solid yellowgreen;
+    border-radius: 3px;
+    margin-left: 0.3rem;
+}
+.Editinput{
+    width: 300px;
+}
+/* .Father-product{
+    height: 100vh;
+    background-image: url('https://hinhanhdephd.com/wp-content/uploads/2017/10/hinh-anh-mua-xuan-dep-canh-dep-thien-nhien-trong-mua-xuan.jpg');
+} */
