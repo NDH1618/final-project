@@ -12,7 +12,7 @@ export const MenuItem = [
 
     },
     {
-        Title: 'Các tác giả',
+        Title: 'Tác giả',
         Url  : '/yeuthich',
         cName: <MdFavoriteBorder className="icon-icon"  />,
         class: 'nav-link'
